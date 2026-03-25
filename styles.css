@@ -1,0 +1,172 @@
+
+body{
+  font-family: 'Press Start 2P', monospace;
+  font-size: 8px;
+  background-color: #EEE1C6;
+}
+header{
+  position: sticky;
+  top: 0;
+  background-color: #654321;
+  margin: 10px;
+  border-radius: 20px;
+  z-index: 1000;
+}
+nav{
+  display: flex;
+  justify-content: flex-end;
+
+  gap: 20px;
+  padding: 15px 30px;
+}
+nav a{
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+  background-color:#EEE1C6;
+
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+nav a:hover{
+  background-color: #000;
+  color: #fff;
+}
+nav a:active{
+  background-color: #000;
+  color: #fff;
+  transform: scale(0.95);
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 20px;
+}
+#text{
+  font-size: 32px;
+  text-align: left;
+  max-width: 750px;
+}
+#image{
+  order: -1;
+   width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10%;
+}
+#about{
+  text-align: center;
+  padding: 50px 20px;
+}
+#about h2{
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+#about p{
+  font-size: 1.5rem;
+  margin: 0 auto;
+  line-height: 1.8;
+  padding: 30px;
+
+  background: #654321;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: left;
+}
+#projects{
+  padding: 50px 20px;
+  text-align: center;
+}
+#projects h2{
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+#projectcontainer{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+#projectbox{
+  width: 500px;
+  padding: 25px;
+
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  text-align: left;
+  border: 2px solid #654321; 
+}
+#projectbox p{
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: center;
+}
+#projectbox h4{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+#projectbox h3{
+  font-size: 1.5rem;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #654321;
+  color: #fff;
+  border-radius: 20px;
+  padding: 15px 20px;  
+}
+#projectbox ul{
+  font-size: 1.2rem;
+}
+li:not(:last-child) {
+  margin-bottom: 12px;
+}
+#contact{
+  text-align: center;
+  padding: 50px 20px;
+}
+#contact h2{
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+#contact h4{
+  margin: 0 0 20px 0;
+}
+#contactbox{
+  font-size: 1.5rem;
+  margin: 0 auto;
+  line-height: 1.8;
+  padding: 30px;
+
+  background: #654321;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+}
+#contact a {
+  display: block;
+  width: 200px;
+  margin: 3px auto;
+  padding: 10px 0px;
+  border-radius: 25px;
+
+  background-color: #EEE1C6; 
+  color: #000;             
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+#contact a:hover {
+  background-color: #000;
+  color: #fff;
+}
+#contact a:active {
+  transform: scale(0.95);
+}
